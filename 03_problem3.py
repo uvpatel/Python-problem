@@ -1,5 +1,8 @@
-# 3. How do you prevent a python print() function to print a new line at the end.
-def printn():
-    paragraph= input('''Enter the text: ''')
-    print(f"{paragraph}\n")
-printn()    
+# 3. Attempt problem 1 using while loop.
+#  Write a program to print multiplication table of a given number using for loop.
+
+number = int(input("Enter your number: "))
+i = 1
+for i in range(1,11):
+    print(f"{number}x{i} = {number*i}")
+    i += 1

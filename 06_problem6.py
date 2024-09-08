@@ -1,7 +1,9 @@
-# multiply the given figure by 2.54. centimeter to inch
+# 6. Write a program to calculate the factorial of a given number using for loop.
 
-def convert_cms_to_inch():
-    centimeter = float(input("Enter centimeter: "))
-    
-    print("The inches are: ", centimeter*2.54)
-convert_cms_to_inch()
+n = int(input("Enter your number: "))
+i = 1
+i<=n
+n = (n-i)
+for n in range(n):
+  print(f"The factorial is: {(n)*(n-1)}")
+  

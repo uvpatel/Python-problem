@@ -1,6 +1,4 @@
-# 4. Write a recursive function to calculate the sum of first n natural numbers.
+# 4. Write a program to find whether a given number is prime or not.
 
-def sum():
-    number = int(input("Enter number : "))
-    print(f"The sum of numbers is: ", (number)*(number+1)/2)
-sum()    
+number = int(input("Enter your number: "))
+
