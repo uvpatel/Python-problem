@@ -1,8 +1,13 @@
-# 3. Attempt problem 1 using while loop.
-#  Write a program to print multiplication table of a given number using for loop.
+# 3. Check that a tuple type cannot be changed in python.
+marks = ()
+m1= int(input("Enter marks: "))
+marks.append(m1)
+m2= int(input("Enter marks: "))
+marks.append(m2)
+m3= int(input("Enter marks: "))
+marks.append(m3)
+m4= int(input("Enter marks: "))
+marks.append(m4)
+print(marks)
 
-number = int(input("Enter your number: "))
-i = 1
-for i in range(1,11):
-    print(f"{number}x{i} = {number*i}")
-    i += 1
+# conclusion is tuples are imutable
