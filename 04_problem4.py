@@ -1,4 +1,5 @@
-# 4. Write a program to find whether a given number is prime or not.
+a = 34
 
-number = int(input("Enter your number: "))
+b = 80
 
+print(a>b)
