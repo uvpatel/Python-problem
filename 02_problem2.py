@@ -1,5 +1,6 @@
-inta = int(input("Enter your number: "))
-intb =int(input("Enter your number: "))
+letter = '''
+Dear <|Name|>,
+You are selected!
+<|Date|>'''
 
-reminder  = inta%intb
-print("The remainder is: ",reminder)
+print(letter.replace("<|Name|>","Urvil").replace("<|Date|>","24 Sptember"))
