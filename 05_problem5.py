@@ -1,6 +1,5 @@
-a = float(input("Enter your first number: "))
-b= float(input("Enter your second number: "))
+# 5. Write a program to count the number of zeros in the following tuple:
+a = (7, 0, 8, 0, 0, 9)
 
-avg = (a+b)/2
-
-print("The avrage is : ", avg)
+a.count(0)
+print(a.count(0))

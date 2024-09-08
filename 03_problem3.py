@@ -1,7 +1,13 @@
-string = "i am a very lon   g  stin  g i am a string"
+# 3. Check that a tuple type cannot be changed in python.
+marks = ()
+m1= int(input("Enter marks: "))
+marks.append(m1)
+m2= int(input("Enter marks: "))
+marks.append(m2)
+m3= int(input("Enter marks: "))
+marks.append(m3)
+m4= int(input("Enter marks: "))
+marks.append(m4)
+print(marks)
 
-
-print(string.count("  "))
-print(string.replace("  "," "))   #problem 4
-print(string.find("lon")) #this detact double space
-# if print -1 not present
+# conclusion is tuples are imutable
