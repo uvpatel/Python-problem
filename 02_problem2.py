@@ -1,11 +1,5 @@
-# 2. Write a program to greet all the person names stored in a list ‘l’ and which starts
-# with S.
-l = ["Harry", "Soham", "Sachin", "Rahul"]
+inta = int(input("Enter your number: "))
+intb =int(input("Enter your number: "))
 
-greet = "good morning"
-
-# name = str(input("Enter your name: "))
-i = 0
-for name in l :
-    print(f"{l[i]}, {greet}")
-    i +=1
+reminder  = inta%intb
+print("The remainder is: ",reminder)

@@ -1,7 +1,5 @@
-# 1. Write a program to print multiplication table of a given number using for loop.
+num_a = float(input("Enter first number: "))
+num_b = float(input("Enter second number: "))
 
-number = int(input("Enter a number: "))
-i = 1
-while(i<11):
-    print(f"{number}X{i} =",number*i)
-    i += 1 
+sum = num_a + num_b
+print(sum)

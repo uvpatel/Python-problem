@@ -1,7 +1,6 @@
-# 5. Write a program to find the sum of first n natural numbers using while loop.
+a = float(input("Enter your first number: "))
+b= float(input("Enter your second number: "))
 
-number = int(input("Enter your number: "))
-i = 1
-for i in range(1):
-    print(f"The sum of the number is: {((number)*(number+1))/2}")
-    
+avg = (a+b)/2
+
+print("The avrage is : ", avg)
