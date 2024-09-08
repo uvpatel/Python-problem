@@ -1,16 +1,30 @@
-'''6. Create an empty dictionary. Allow 4 friends to enter their favorite language as
-value and use key as their names. Assume that the names are unique.'''
-dict = {"Urvil": "python" , "Abhishekh": "php", "mihir": "Java", "ramani": "c"}
-name = input(f"Enter your name: ")
-if(name=='Urvil'):
-   print(f"Your language is: {dict['Urvil']}")
-elif(name=='ramani'):
-    print(f"Your language is: {dict['ramani']}")
-elif(name=='Abhishekh'):
-    print(f"Your language is: {dict['Abhishekh']}")
-elif(name=='mihir'):
-    print(f"Your language is: {dict['mihir']}")
+'''6. Write a program to calculate the grade of a student from his marks from the
+following scheme:
+90 – 100 => Ex
+80 – 90 => A
+70 – 80 => B
+60 – 70 =>C
+50 – 60 => D
+<50 => F'''
 
+marksa= float(input("Enter your marks: "))
+marksb= float(input("Enter your marks: "))
+marksc= float(input("Enter your marks: "))
+
+per =( marksa+marksb+marksc)/3
+print("Your persentage is:",per)
+
+if(100>=per>=90):
+    print("Your grade is Excellent ")
+elif(90>per>=80):
+    print("Your grade is A ")
+elif(80>per>=70):
+    print("Your grade is B ")
+elif(70>per>60):
+    print("Your grade is  C")
+elif(60>per>50):
+    print("Your grade is  D")
+elif(50<per):
+    print("Your grade is f ")
 else:
-    print("Something went wrong")    
- 
+    print("someyhing went wrong")

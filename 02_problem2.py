@@ -1,15 +1,17 @@
-'''2. Write a program to accept marks of 6 students and display them in a sorted
-manner.'''
+'''2. Write a program to find out whether a student has passed or failed if it requires a
+total of 40% and at least 33% in each subject to pass. Assume 3 subjects and
+take marks as an input from the user.
+'''
 
-marks = []
+phy_marks = float(input("Enter marks: "))
+chem_marks = float(input("Enter marks: "))
+maths_marks = float(input("Enter marks: "))
 
-m_a = int(input("Enter marks: "))
-marks.append(m_a)
-m_b = int(input("Enter marks: "))
-marks.append(m_b)
-m_c = int(input("Enter marks: "))
-marks.append(m_c)
-m_d = int(input("Enter marks: "))
-marks.append(m_d)
-marks.sort()
-print(marks)
+per = (phy_marks+chem_marks+maths_marks)/3
+
+print(per)
+if(per<40):
+    print("You are fail")
+
+elif(phy_marks<33 and chem_marks<33 and maths_marks<33):
+    print("Your one subject marks is not sufficient,so u are")    

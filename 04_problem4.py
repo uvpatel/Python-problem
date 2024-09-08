@@ -1,14 +1,11 @@
-# 4. Write a program to sum a list with 4 numbers.
+'''4. Write a program to find whether a given username contains less than 10
+characters or not.'''
 
-numbers = []
-
-num1 = float(input("Enter your number: "))
-numbers.append(num1) 
-num2 = float(input("Enter your number: "))
-numbers.append(num2) 
-num3 = float(input("Enter your number: "))
-numbers.append(num3) 
-num4 = float(input("Enter your number: "))
-numbers.append(num4) 
-
-print(sum(numbers))
+user_name = input("Enter your name: ")
+if(len(user_name)>10):
+    print("Given name contain more than 10 letters")
+elif(len(user_name)<=10):
+    print("Given name contain less than 10 letters")
+    
+else:
+    print("something went wrong")    
