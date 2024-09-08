@@ -1,8 +1,7 @@
-# 3. Attempt problem 1 using while loop.
-#  Write a program to print multiplication table of a given number using for loop.
+string = "i am a very lon   g  stin  g i am a string"
 
-number = int(input("Enter your number: "))
-i = 1
-for i in range(1,11):
-    print(f"{number}x{i} = {number*i}")
-    i += 1
+
+print(string.count("  "))
+print(string.replace("  "," "))   #problem 4
+print(string.find("lon")) #this detact double space
+# if print -1 not present
