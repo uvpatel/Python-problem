@@ -1,0 +1,87 @@
+
+
+print('''Twinkle, twinkle, little star,
+How I wonder what you are!
+Up above the world so high,
+Like a diamond in the sky.
+
+When the blazing sun is gone,
+When he nothing shines upon,
+Then you show your little light,
+Twinkle, twinkle, all the night.
+
+Then the trav'ller in the dark,
+Thanks you for your tiny spark,
+He could not see which way to go,
+If you did not twinkle so.
+
+In the dark blue sky you keep,
+And often thro' my curtains peep,
+For you never shut your eye,
+Till the sun is in the sky.
+
+'Tis your bright and tiny spark,
+Lights the trav'ller in the dark:
+Tho' I know not what you are,
+Twinkle, twinkle, little star.''')
+
+
+# pro 3
+import os
+
+def print_directory_contents(directory):
+    try:
+        # Get a list of entries in the directory
+        entries = os.listdir(directory)
+        
+        # Print each entry
+        print(f"Contents of directory '{directory}':")
+        for entry in entries:
+            print(entry)
+    except FileNotFoundError:
+        print(f"The directory '{directory}' does not exist.")
+    except PermissionError:
+        print(f"Permission denied to access '{directory}'.")
+
+# Specify the path to the directory you want to list
+directory_path = '.'  # Current directory
+
+# Call the function to print the contents
+print_directory_contents(directory_path)
+
+
+
+#pro 4
+import os
+
+def print_directory_contents(directory):
+    """
+    Prints the contents of the specified directory.
+
+    Args:
+        directory (str): The path to the directory whose contents are to be listed.
+
+    Returns:
+        None
+    """
+    try:
+        # Attempt to list the contents of the directory
+        entries = os.listdir(directory)
+        
+        # Print a header message with the directory path
+        print(f"Contents of directory '{directory}':")
+        
+        # Iterate over each entry in the list of directory contents
+        for entry in entries:
+            # Print the name of each entry (file or subdirectory)
+            print(entry)
+    except FileNotFoundError:
+        # Handle the case where the specified directory does not exist
+        print(f"The directory '{directory}' does not exist.")
+    except PermissionError:
+        # Handle the case where there are permission issues accessing the directory
+        print(f"Permission denied to access '{directory}'.")
+
+# Specify the path to the directory you want to list.
+# '.' refers to the current working directory.
+directory_path = '.'  # You can change this to 
