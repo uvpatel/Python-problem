@@ -1,5 +1,5 @@
-# 5. Write a program to count the number of zeros in the following tuple:
-a = (7, 0, 8, 0, 0, 9)
+5.
+s = {}
+# What is the type of 's'?
 
-a.count(0)
-print(a.count(0))
+# s is a dictionary

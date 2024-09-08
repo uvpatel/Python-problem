@@ -1,6 +1,6 @@
-'''6. Create an empty dictionary. Allow 4 friends to enter their favorite language as
-value and use key as their names. Assume that the names are unique.'''
-dict = {"Urvil": "python" , "Abhishekh": "php", "mihir": "Java", "ramani": "c"}
+# 7. If the names of 2 friends are same; what will happen to the program in problem 6?
+
+dict = {"Urvil": "python" , "Abhishekh": "php", "mihir": "Java", "Urvil": "c"}
 name = input(f"Enter your name: ")
 if(name=='Urvil'):
    print(f"Your language is: {dict['Urvil']}")
@@ -12,5 +12,6 @@ elif(name=='mihir'):
     print(f"Your language is: {dict['mihir']}")
 
 else:
-    print("Something went wrong")    
- 
+    print("Something went wrong") 
+
+#  If name is similar so it gave output last initializing
