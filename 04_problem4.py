@@ -1,4 +1,3 @@
-# 4. Write a program to find whether a given number is prime or not.
+letter = "Dear Harry,\n this python course is nice.\n Thanks!"
 
-number = int(input("Enter your number: "))
-
+print(letter)
