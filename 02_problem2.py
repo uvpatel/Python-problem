@@ -1,11 +1,15 @@
-# 2. Write a program to greet all the person names stored in a list ‘l’ and which starts
-# with S.
-l = ["Harry", "Soham", "Sachin", "Rahul"]
+'''2. Write a program to accept marks of 6 students and display them in a sorted
+manner.'''
 
-greet = "good morning"
+marks = []
 
-# name = str(input("Enter your name: "))
-i = 0
-for name in l :
-    print(f"{l[i]}, {greet}")
-    i +=1
+m_a = int(input("Enter marks: "))
+marks.append(m_a)
+m_b = int(input("Enter marks: "))
+marks.append(m_b)
+m_c = int(input("Enter marks: "))
+marks.append(m_c)
+m_d = int(input("Enter marks: "))
+marks.append(m_d)
+marks.sort()
+print(marks)

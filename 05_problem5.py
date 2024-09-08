@@ -1,7 +1,5 @@
-# 5. Write a program to find the sum of first n natural numbers using while loop.
+# 5. Write a program to count the number of zeros in the following tuple:
+a = (7, 0, 8, 0, 0, 9)
 
-number = int(input("Enter your number: "))
-i = 1
-for i in range(1):
-    print(f"The sum of the number is: {((number)*(number+1))/2}")
-    
+a.count(0)
+print(a.count(0))

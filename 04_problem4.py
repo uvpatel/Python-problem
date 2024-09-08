@@ -1,4 +1,14 @@
-# 4. Write a program to find whether a given number is prime or not.
+# 4. Write a program to sum a list with 4 numbers.
 
-number = int(input("Enter your number: "))
+numbers = []
 
+num1 = float(input("Enter your number: "))
+numbers.append(num1) 
+num2 = float(input("Enter your number: "))
+numbers.append(num2) 
+num3 = float(input("Enter your number: "))
+numbers.append(num3) 
+num4 = float(input("Enter your number: "))
+numbers.append(num4) 
+
+print(sum(numbers))
